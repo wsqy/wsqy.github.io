@@ -5,17 +5,19 @@
 # Site
 title: 维京博客
 subtitle:
-description:
-keywords:
-author: qiyuan
+description: 人生苦短，我用PYTHON
+keywords: python, django, rest, Linux, 信息安全
+author: wsqy
+avatar: /images/个人头像.jpg
 language: zh-Hans # 语言设置
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.viking666.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
+# permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -42,7 +44,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace:
+  tab_replace: 4
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -50,7 +52,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 5
   order_by: -date
 
 # Category & Tag
@@ -73,7 +75,30 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+# https://github.com/iissnan/hexo-theme-nex
+theme: next
+
+search: # 本地搜索插件
+  path: search.xml
+  field: post
+  format: html
+  limit: 10
+
+Plugins:
+- hexo-generator-feed
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
+
+feed: # RSS订阅插件
+  type: atom
+  path: atom.xml
+  limit: 10
+
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
