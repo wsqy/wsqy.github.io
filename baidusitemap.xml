@@ -4,8 +4,62 @@
 
     
   <url>
-    <loc>http://blog.viking666.com/2018/07/ubuntu%E4%B8%8B%E9%83%A8%E7%BD%B2django%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2018-07-17T07:21:32.376Z</lastmod>
+    <loc>http://blog.viking666.com/2018/%E5%B0%8F%E9%A3%9E%E6%9C%BA-Qt5%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2018-07-21T02:27:00.282Z</lastmod>
+    <data>
+        <display>
+        <title>小飞机-Qt5配置</title>
+        <pubTime>2018-03-08T01:32:02.000Z</pubTime>
+        
+        <tag>ubuntu</tag>
+         
+        <tag>shadowsocks</tag>
+         
+        <tag>ssr</tag>
+         
+        <tag>fq</tag>
+         
+        <tag>翻墙</tag>
+         
+        <tag>ssr服务端</tag>
+         
+        <tag>linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="shadowsocks" url="http://blog.viking666.com/categories/shadowsocks/"/>
+          
+             
+              <breadCrumb title="ubuntu" url="http://blog.viking666.com/categories/shadowsocks/ubuntu/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.viking666.com/2018/docker%E5%9F%BA%E7%A1%80%E7%AF%87/</loc>
+    <lastmod>2018-07-21T02:26:46.923Z</lastmod>
+    <data>
+        <display>
+        <title>docker基础篇</title>
+        <pubTime>2018-03-11T07:37:27.000Z</pubTime>
+        
+        <tag>docker</tag>
+         
+        <tag>ubuntu</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.viking666.com/2018/ubuntu%E4%B8%8B%E9%83%A8%E7%BD%B2django%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2018-07-21T02:01:22.337Z</lastmod>
     <data>
         <display>
         <title>ubuntu下部署django项目</title>
@@ -28,7 +82,7 @@
 
     
   <url>
-    <loc>http://blog.viking666.com/2018/07/github-pages-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>http://blog.viking666.com/2018/github-pages-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2018-07-14T09:41:44.113Z</lastmod>
     <data>
         <display>
